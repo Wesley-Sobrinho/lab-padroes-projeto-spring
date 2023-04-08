@@ -16,7 +16,7 @@
 	<description>Exemplos de Padrões de Projeto em Spring</description>
 	
 	<properties>
-		<java.version>11</java.version>
+		<java.version>17</java.version>
 		<openapi.version>1.5.10</openapi.version>
 		<spring-cloud.version>2020.0.3</spring-cloud.version>
 	</properties>
@@ -50,6 +50,13 @@
 			<artifactId>h2</artifactId>
 			<scope>runtime</scope>
 		</dependency>
+
+<dependency>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-web</artifactId>
+    <version>5.3.13</version>
+</dependency>
+
 
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
